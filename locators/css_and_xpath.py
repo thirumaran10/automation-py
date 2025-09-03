@@ -17,7 +17,7 @@ driver.find_element(By.CSS_SELECTOR,'input[name="name"]').send_keys('kong')
 driver.find_element(By.CSS_SELECTOR,"#inlineRadio1").click()
 
 driver.find_element(By.XPATH,'//input[@type="submit"]').click()
-#menting class name and give variable name and print it
+#give class name and give variable name and print it
 message = driver.find_element(By.CLASS_NAME,"alert-success").text
 print(message)
 
