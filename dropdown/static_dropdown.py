@@ -1,3 +1,5 @@
+#Static dropdowns of using select class of selenium
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 #to import select class
