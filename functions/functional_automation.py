@@ -34,7 +34,7 @@ prices = driver.find_elements(By.XPATH,"//tr/td[5]/p")
 sum = 0
 for amt in prices:
     sum = sum + int(amt.text) 
-print(sum)
+print(sum)  
  
 totalamt = int(driver.find_element(By.XPATH,'//div/span[@class="totAmt"]').text)
 assert sum == totalamt
