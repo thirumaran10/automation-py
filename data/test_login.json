@@ -1,0 +1,18 @@
+{ 
+    "data" :[ 
+
+    {
+        "userEmail" : "rahulsheetyacademy",
+        "userpassword" : "learning"
+    },
+
+    {
+        "userEmail" : "rahulsheetyacademy1",
+        "userpassword" : "learning1"
+    }
+    
+    ]
+
+
+
+}

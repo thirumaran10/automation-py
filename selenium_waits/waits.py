@@ -5,7 +5,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support import expected_conditions 
 
 driver = webdriver.Chrome()
 driver.implicitly_wait(5) #implicit wait - applies to all the elements
@@ -38,6 +38,7 @@ driver.find_element(By.XPATH,"//button[text() = 'Place Order']").click()
 
 driver.find_element(By.XPATH,'//option[@value="India"]').click()
 driver.find_element(By.CLASS_NAME,"chkAgree").click()
+
 driver.find_element(By.XPATH,"//button[text() = 'Proceed']").click()
 
 time.sleep(5)
