@@ -1,0 +1,7 @@
+{
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "."   // this means look for tests in the current folder (.)
+  ]
+}

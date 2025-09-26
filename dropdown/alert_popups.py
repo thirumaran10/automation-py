@@ -13,6 +13,7 @@ name = "mahadev"
 driver.find_element(By.NAME,"enter-name").send_keys(name)
 time.sleep(2)
 driver.find_element(By.XPATH,'//input[@value="Alert"]').click()
+#alert popup
 alert = driver.switch_to.alert
 alert_text = alert.text
 print(alert_text)
