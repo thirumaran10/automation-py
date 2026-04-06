@@ -7,7 +7,6 @@ def pytest_addoption(parser):
         "--browser", action="store", default="chrome", help="browser selection"
     )
 
-
 #getting the name form terminal using, "--browser" command
 @pytest.fixture(scope="function")
 def browserinstance(request):
