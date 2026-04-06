@@ -2,7 +2,6 @@
 from selenium.webdriver.common.by import By
 from pytest_cases.shop import shoppage
 
-
 #using browserutils without even declaration we have the parent method here, using inheritance
 class loginpage():#class loginpage(browserutils):
     def __init__(self, driver):
