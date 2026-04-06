@@ -12,7 +12,6 @@ def pytest_addoption(parser):
 def browserinstance(request):
     browser_name = request.config.getoption("browser")
 
-
     if browser_name == "chrome": #genderliz the browser name
         driver = webdriver.Chrome()
     elif browser_name == "firefox":
