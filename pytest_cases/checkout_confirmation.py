@@ -14,7 +14,6 @@ class checkoutconfirmation:
         self.submit_button = (By.XPATH,'//input[@value="Purchase"]')
         self.success_message = (By.CLASS_NAME,'alert-success')
 
-
     def checkout(self):
         self.driver.find_element(*self.checkout_button).click()
 
