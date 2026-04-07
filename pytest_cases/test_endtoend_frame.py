@@ -16,5 +16,4 @@ def test_e2e(browserinstance):
     
     driver.save_screenshot(r"T:\vscode\python_selenium\screenshots\after_checkout.png")
     time.sleep(10)
-
     driver.close()
