@@ -11,7 +11,7 @@ driver.get("https://rahulshettyacademy.com/angularpractice/")
 driver.implicitly_wait(5)
 driver.maximize_window()
 
-driver.find_element(By.XPATH,"//a[contains(@href, 'shop')]").click()#using contains attribute
+driver.find_element(By.XPATH,"//a[contains(@href, 'shop')]").click() #using contains attribute
 products = driver.find_elements(By.XPATH,'//div[@class="card h-100"]')
 
 for product in products:
