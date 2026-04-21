@@ -16,7 +16,7 @@ driver.find_element(By.XPATH,'//input[@value="Alert"]').click()
 #alert popup
 alert = driver.switch_to.alert
 alert_text = alert.text
-print(alert_text)
+print(alert_text) 
 time.sleep(5)
 
 #verifies that the name (mahadev) is present in the alert text.
