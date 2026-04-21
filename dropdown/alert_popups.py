@@ -25,4 +25,4 @@ alert.accept()#Clicks OK on the alert
 
 #Clicks Cancel on the alert
 #alert.dismiss()
-time.sleep(5)
+time.sleep(5) 
