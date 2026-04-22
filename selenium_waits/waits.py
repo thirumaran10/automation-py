@@ -20,7 +20,7 @@ time.sleep(2)
 results = driver.find_elements(By.XPATH,'//div[@class="product"]')
 count = len(results)
 assert count > 0
-
+ 
 for result in results:
 #chaining of webelements, (result already having the xpath of parent element from that we adding the child element xpath)
     result.find_element(By.XPATH,'.//div/button').click()
