@@ -41,5 +41,4 @@ driver.find_element(By.CLASS_NAME,"chkAgree").click()
 
 driver.find_element(By.XPATH,"//button[text() = 'Proceed']").click()
 
-
 time.sleep(5)
