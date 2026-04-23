@@ -2,12 +2,10 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 
-
 driver = webdriver.Chrome()
 driver.get("https://the-internet.herokuapp.com/iframe")
 driver.implicitly_wait(5)
 driver.maximize_window()
-
 
 driver.find_element(By.XPATH,'//div[@class="tox-icon"]').click()
 #the text area is inside the frame, so we need to switch to the frame first
