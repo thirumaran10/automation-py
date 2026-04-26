@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
  #create object to this class
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("head")
-#some page tell connection private hide details
+#some page tell connection private hide  details
 chrome_options.add_argument("--ignore-certificate-errors")
 
 driver = webdriver.Chrome(options=chrome_options)#giving argument to run headless mode
