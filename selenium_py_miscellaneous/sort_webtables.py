@@ -11,6 +11,7 @@ driver.implicitly_wait(5)
 
 #click on column header
 driver.find_element(By.XPATH,'//*[text() = "Veg/fruit name"]').click()
+
 #collect all veggie names -> Browser sorted veggie list (A,B,C)
 veggiewebelements = driver.find_elements(By.XPATH,"//tr/td[1]")#plural form
 for veg in veggiewebelements:
