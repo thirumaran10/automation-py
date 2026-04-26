@@ -4,7 +4,7 @@ import time
 from selenium.webdriver.common.by import By
 
 '''providing a sepcifc instructions how browser should behave when it get invoked
-(before opening the browser the instructions should be given)'''
+(before opening the browser the instructions should be given )'''
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--start-maximized")
