@@ -10,6 +10,7 @@ driver.maximize_window()
 
 driver.find_element(By.ID,"autosuggest").send_keys("ind")
 time.sleep(2)
+
 #giving a variable to store the all matching elements 
 #using find_elements to identify multiple elements (plural form)
 contries = driver.find_elements(By.XPATH,'//li[@class="ui-menu-item"]/child::a')
