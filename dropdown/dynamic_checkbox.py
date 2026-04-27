@@ -12,7 +12,7 @@ option = driver.find_elements(By.XPATH,'//input[@type="checkbox"]')
 time.sleep(3)
 print(len(option))
 
-'''using for loop to find the element you want, when you dont know were the value is located'''
+'''using for loop to find the element you want, when you dont know were the value is located '''
 for checkbox in option:
     if checkbox.get_attribute("value") == "option2":
         checkbox.click()
