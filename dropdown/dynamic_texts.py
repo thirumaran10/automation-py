@@ -25,4 +25,3 @@ time.sleep(2)
 #print(driver.find_element(By.ID,"autosuggest").get_attribute("value"))
 assert driver.find_element(By.ID,"autosuggest").get_attribute("value") == "India"
 time.sleep(2)
-
