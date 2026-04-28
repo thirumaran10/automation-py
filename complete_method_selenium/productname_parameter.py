@@ -40,5 +40,4 @@ assert "Success! Thank you!" in success
  
 '''== make exact match, in mean the text we mention present compltely in the variable'''
 time.sleep(10)
-
 driver.close
