@@ -1,7 +1,6 @@
 #functional automation 
 #sum validation and discount validation
 
-
 from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
