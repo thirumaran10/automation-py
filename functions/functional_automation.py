@@ -40,8 +40,6 @@ assert sum == totalamt
 driver.find_element(By.CLASS_NAME,"promoCode").send_keys("rahulshettyacademy")
 driver.find_element(By.CLASS_NAME,"promoBtn").click()
 
-
-
 #explicit wait - applies to specific element
 
 wait = WebDriverWait(driver,20)
