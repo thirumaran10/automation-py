@@ -7,7 +7,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions 
 
-
 driver = webdriver.Chrome()
 driver.implicitly_wait(5) #implicit wait - applies to all the elements
 driver.get("https://rahulshettyacademy.com/seleniumPractise/?utm_source=chatgpt.com#/")
