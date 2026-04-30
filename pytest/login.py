@@ -19,5 +19,3 @@ class loginpage():#class loginpage(browserutils):
 
         #shop_page = shoppage(self.driver)
         #return shop_page
-
-    
