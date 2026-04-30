@@ -16,14 +16,12 @@ fruit_name = "Apple"#without hard coding the locator make a dynamic(use in xpath
 newvalue = "999"
 driver.find_element(By.ID,"downloadButton").click()
 
-
 #updated excel file datas
 update_excel_data(file_path, "price", fruit_name, newvalue)
 #upload
 file_input = driver.find_element(By.XPATH,'//input[@type="file"]')
 #giving the path of file present in local that has to upload 
 file_input.send_keys(file_path)
-
 
 #explicit wait 
 wait = WebDriverWait(driver,10)
@@ -34,10 +32,9 @@ print(driver.find_element(*toast_locator).text)
 print(toast.text)'''
 
 driver.find_element(By.XPATH,"//div[text() = 'Price']").get_attribute('data-column-id')
-#'Apple' => '"+fruit_name+"'(#without hard coding the locator make a dynamic(use in xpath))
-actual_price = driver.find_element(By.XPATH,"//div[text() = 'Apple']/parent::div/parent::div/div[@id='cell-4-undefined']").text
 
+#'Apple' => '"+fruit_name+"'(# without hard coding the locator make a dynamic(use in xpath) )
+actual_price = driver.find_element(By.XPATH,"//div[text() = 'Apple']/parent::div/parent::div/div[@id='cell-4-undefined']").text
 
 assert actual_price == newvalue
 time.sleep(10)
-
