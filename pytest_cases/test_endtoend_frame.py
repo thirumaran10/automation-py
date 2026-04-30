@@ -1,7 +1,6 @@
 #Selecting a product from list of products with product name parameter
 
 import time
-
 from shop import shoppage
 
 def test_e2e(browserinstance):
