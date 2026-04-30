@@ -16,7 +16,7 @@ driver.find_element(By.XPATH,'//input[@type="search"]').send_keys("ber")
 time.sleep(5)
 
 #plural form - to get multiple elements, to get the add to cart button
-# get all product cards
+# get all product cards 
 products = driver.find_elements(By.XPATH, '//div[@class="products"]/div')
 
 for p in products:
@@ -45,5 +45,4 @@ driver.find_element(By.XPATH,"//button[text() = 'Place Order']").click()
 driver.find_element(By.XPATH,'//option[@value="India"]').click()
 driver.find_element(By.CLASS_NAME,"chkAgree").click()
 driver.find_element(By.XPATH,"//button[text() = 'Proceed']").click()
-
 time.sleep(5)
