@@ -7,6 +7,7 @@ def pytest_addoption(parser):
         "--browser", action="store", default="chrome", help="browser selection"
     )
 
+
 #getting the name form terminal using, "--browser" command
 @pytest.fixture(scope="function")
 def browserinstance(request):
@@ -24,5 +25,3 @@ def browserinstance(request):
     '''post function execution - after completing all the test (browser instance)
       came back to this conftest and see if there is any code under the yield 
       because yield told that the code to execute the method first and came last ''' 
-    
-
