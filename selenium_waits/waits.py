@@ -15,8 +15,7 @@ driver.maximize_window()
 driver.find_element(By.XPATH,'//input[@type="search"]').send_keys("ber")
 time.sleep(2)
 
-
-#plural form - to get multiple elements 
+#plural form - to get multiple element
 results = driver.find_elements(By.XPATH,'//div[@class="product"]')
 count = len(results)
 assert count > 0
