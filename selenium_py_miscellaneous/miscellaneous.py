@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.chrome.service import Service
 
-#to import the head and headless mode('webdriver.ChromeOptions()')
+ #to import the head and headless mode('webdriver.ChromeOptions()')
  #create object to this class
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("head")
